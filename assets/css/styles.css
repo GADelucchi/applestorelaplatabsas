@@ -3,7 +3,14 @@ nav {
   height: 52.5px;
   background-color: black; }
   nav div {
+    display: flex;
+    justify-content: center;
     height: 52.5px; }
+    nav div a {
+      position: relative; }
+      nav div a img {
+        height: 5rem;
+        width: auto; }
     nav div ul {
       list-style: none;
       display: flex;
@@ -11,15 +18,16 @@ nav {
       align-items: center;
       margin-bottom: 0rem;
       padding-left: 0rem;
+      width: 100%;
       gap: 30px;
       color: white; }
       nav div ul li a {
         text-decoration: none;
         color: white;
         font-size: 1.5em; }
-        nav div ul li a img {
-          height: 5rem;
-          width: auto; }
+        nav div ul li a:hover {
+          color: white;
+          text-decoration: underline; }
 
 .link--modifier {
   font-weight: bold; }
@@ -44,6 +52,48 @@ footer {
         height: 2.5rem;
         width: auto; }
 
+@media (max-width: 576px) {
+  .bignav--dissapear {
+    display: none; }
+  img {
+    height: 5rem;
+    width: auto;
+    z-index: 1; }
+  .bg-dark {
+    background-color: black !important; }
+  .container-fluid {
+    justify-content: center !important; }
+  button {
+    height: 5.5rem !important;
+    padding: 0px !important; }
+  .navbar {
+    padding: 0px !important; }
+  .navbar-toggler {
+    border: none !important; }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+    width: 100%;
+    gap: 30px;
+    color: white; }
+    ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5em; }
+      ul li a:hover {
+        color: white;
+        text-decoration: underline; } }
+
+@media (min-width: 576px) {
+  .collapse {
+    display: none; }
+  .navbar {
+    display: none; } }
+
 * {
   margin: 0;
   padding: 0;
@@ -54,3 +104,32 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif; }
+
+main section {
+  display: flex;
+  justify-content: center; }
+  main section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    height: 25rem;
+    width: 70rem;
+    background: #A6A6A6;
+    background: -moz-radial-gradient(center, #A6A6A6 0%, #d9d9d9 100%);
+    background: -webkit-radial-gradient(center, #A6A6A6 0%, #d9d9d9 100%);
+    background: radial-gradient(ellipse at center, #A6A6A6 0%, #d9d9d9 100%);
+    margin-top: 25rem;
+    margin-bottom: 25rem; }
+    main section div h1 {
+      font-size: 6rem; }
+    main section div p {
+      font-size: 2rem; }
+    main section div a img {
+      height: 5rem;
+      width: auto;
+      margin: 1rem; }

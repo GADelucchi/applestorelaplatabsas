@@ -3,7 +3,17 @@ nav {
     height: 52.5px;
     background-color: black;
     div {
+        display: flex;
+        justify-content: center;
         height: 52.5px;
+        a {
+            position: relative;
+            
+            img {
+                height: 5rem;
+                width: auto;
+            }
+        }
         ul {
             list-style: none;
             display: flex;
@@ -11,6 +21,7 @@ nav {
             align-items: center;
             margin-bottom: 0rem;
             padding-left: 0rem;
+            width: 100%;
             gap: 30px;
             color: white;
             li {
@@ -18,9 +29,9 @@ nav {
                     text-decoration: none;
                     color: white;
                     font-size: 1.5em;
-                    img {
-                        height: 5rem;
-                        width: auto;
+                    &:hover {
+                        color: white;
+                        text-decoration: underline;
                     }
                 }
             }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,56 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="shortcut icon" href="./assets/imgs/logo--favicon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Inicio - Apple Store La Plata Bs. As.</title>
 </head>
+
 <body>
-    <nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <ul>
+                <li>
+                    <a href="#">Mac</a>
+                </li>
+                <li>
+                    <a href="#">iPad</a>
+                </li>
+                <li>
+                    <a href="#">iPhone</a>
+                </li>
+                <li>
+                    <a href="#">iWatch</a>
+                </li>
+                <li>
+                    <a href="#">AirPods</a>
+                </li>
+                <li>
+                    <a href="#">Accesorios</a>
+                </li>
+                <li>
+                    <a href="#">Soporte</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="logo--hamburger">
+                    <img src="./assets/imgs/logo.png" alt="Logo">
+                </span>
+            </button>
+        </div>
+    </nav>
+
+    <nav class="bignav--dissapear">
         <div>
             <ul>
                 <li>
@@ -21,32 +66,40 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./assets/pages/mac.html">Mac</a>
+                    <a href="#">Mac</a>
                 </li>
                 <li>
-                    <a href="./assets/pages/ipad.html">iPad</a>
+                    <a href="#">iPad</a>
                 </li>
                 <li>
-                    <a href="./assets/pages/iphone.html">iPhone</a>
+                    <a href="#">iPhone</a>
                 </li>
                 <li>
-                    <a href="./assets/pages/applewatch.html">iWatch</a>
+                    <a href="#">iWatch</a>
                 </li>
                 <li>
-                    <a href="./assets/pages/airpods.html">AirPods</a>
+                    <a href="#">AirPods</a>
                 </li>
                 <li>
-                    <a href="./assets/pages/accesories.html">Accesorios</a>
+                    <a href="#">Accesorios</a>
                 </li>
                 <li>
-                    <a href="./assets/pages/support.html">Soporte</a>
+                    <a href="#">Soporte</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <main>
-        
+        <section>
+            <div>
+                <h1>Sitio en construcción</h1>
+                <p>Estamos trabajando para vos, disculpe las molestias</p>
+                <a href="https://api.whatsapp.com/send/?phone=%2B5492215928107&text&type=phone_number&app_absent=0">
+                    <img src="./assets/imgs/wsp-icon-color.png" alt="Ícono WhatsApp para contacto">
+                </a>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -54,14 +107,19 @@
             <ul>
                 <li>
                     <a href="https://api.whatsapp.com/send/?phone=%2B5492215928107&text&type=phone_number&app_absent=0">
-                        <img src="./assets/imgs/wsp__icon.png" alt="Icono WhatsApp">
+                        <img src="./assets/imgs/wsp-icon.png" alt="Icono WhatsApp">
                     </a>
                 </li>
                 <li>
-                    <a href="./assets/pages/terms-and-conditions.html">Términos y Condiciones</a>
+                    <a href="#">Términos y Condiciones</a>
                 </li>
             </ul>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
