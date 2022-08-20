@@ -31,7 +31,7 @@
         margin-bottom: 0rem;
         padding-left: 0rem;
         width: 100%;
-        gap: 30px;
+        gap: 20px;
         color: white;
         li {
             a {
@@ -44,6 +44,10 @@
                 }
             }
         }
+    }
+    main section div {
+        height: 35rem;
+        width: 50rem;
     }
 }
 
