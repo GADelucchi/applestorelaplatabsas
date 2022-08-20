@@ -41,11 +41,13 @@
         width: 100%;
         gap: 10px;
         color: white;
+
         li {
             a {
                 text-decoration: none;
                 color: white;
                 font-size: 1.5em;
+
                 &:hover {
                     color: white;
                     text-decoration: underline;
@@ -57,10 +59,18 @@
     main {
         section {
             div {
-                height: 30rem !important;
-                width: 40rem !important;
-                margin-top: 9rem !important;
-                margin-bottom: 9rem !important;
+                height: 30rem;
+                width: 40rem;
+                margin-top: 13rem;
+                margin-bottom: 13rem;
+                h1 {
+                    padding-left: 1.5rem;
+                    padding-right: 1.5rem;
+                }
+                p {
+                    padding-left: 1.5rem;
+                    padding-right: 1.5rem;
+                }
             }
         }
     }
@@ -82,5 +92,16 @@
 
     .navbar {
         display: none;
+    }
+
+    main {
+        section {
+            div {
+                height: 25rem;
+                width: 70rem;
+                margin-top: 25rem;
+                margin-bottom: 25rem;
+            }
+        }
     }
 }
