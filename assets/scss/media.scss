@@ -59,8 +59,16 @@
             div {
                 height: 30rem !important;
                 width: 40rem !important;
-                margin-top: 10rem !important;
-                margin-bottom: 10rem !important;
+                margin-top: 7rem !important;
+                margin-bottom: 7rem !important;
+            }
+        }
+    }
+
+    footer {
+        div {
+            ul {
+                flex-direction: row;
             }
         }
     }
