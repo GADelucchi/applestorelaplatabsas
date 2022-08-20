@@ -41,13 +41,11 @@
         width: 100%;
         gap: 10px;
         color: white;
-
         li {
             a {
                 text-decoration: none;
                 color: white;
                 font-size: 1.5em;
-
                 &:hover {
                     color: white;
                     text-decoration: underline;
@@ -59,8 +57,8 @@
     main {
         section {
             div {
-                height: 50rem;
-                width: 50rem;
+                height: 30rem !important;
+                width: 40rem !important;
             }
         }
     }

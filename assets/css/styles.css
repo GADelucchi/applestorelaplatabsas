@@ -89,8 +89,8 @@ footer {
         color: white;
         text-decoration: underline; }
   main section div {
-    height: 50rem;
-    width: 50rem; } }
+    height: 30rem !important;
+    width: 40rem !important; } }
 
 @media (min-width: 576px) {
   .collapse {
