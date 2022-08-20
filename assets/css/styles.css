@@ -79,7 +79,7 @@ footer {
     margin-bottom: 0rem;
     padding-left: 0rem;
     width: 100%;
-    gap: 20px;
+    gap: 10px;
     color: white; }
     ul li a {
       text-decoration: none;
@@ -89,7 +89,7 @@ footer {
         color: white;
         text-decoration: underline; }
   main section div {
-    height: 35rem;
+    height: 50rem;
     width: 50rem; } }
 
 @media (min-width: 576px) {
