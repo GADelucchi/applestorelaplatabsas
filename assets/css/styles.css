@@ -90,7 +90,9 @@ footer {
         text-decoration: underline; }
   main section div {
     height: 30rem !important;
-    width: 40rem !important; } }
+    width: 40rem !important;
+    margin-top: 10rem;
+    margin-bottom: 10rem; } }
 
 @media (min-width: 576px) {
   .collapse {
@@ -127,8 +129,8 @@ main section {
     background: -moz-radial-gradient(center, #A6A6A6 0%, #d9d9d9 100%);
     background: -webkit-radial-gradient(center, #A6A6A6 0%, #d9d9d9 100%);
     background: radial-gradient(ellipse at center, #A6A6A6 0%, #d9d9d9 100%);
-    margin-top: 25rem;
-    margin-bottom: 25rem; }
+    margin-top: 25em;
+    margin-bottom: 25em; }
     main section div h1 {
       font-size: 6rem; }
     main section div p {
